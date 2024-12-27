@@ -1,3 +1,4 @@
+@smokeTest
 Feature: Create Card Template
 
     Scenario: User Can Create Card Template

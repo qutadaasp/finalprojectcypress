@@ -1,3 +1,4 @@
+@regressiontest
 Feature: Delete Exist Card
 
     Scenario: Delete card from board

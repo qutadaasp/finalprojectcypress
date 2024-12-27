@@ -1,3 +1,4 @@
+@smokeTest
 Feature: create card in trello website
 
     Scenario: validate the user can create card
