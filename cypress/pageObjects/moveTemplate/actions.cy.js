@@ -10,10 +10,7 @@ class MoveTemp {
     }
 
     chooselist(listName){
-        //cy.get(".value-container.css-66zdpf").eq(1).type("Doing").trigger('mousedown', { button: 0 }).get("{Entre}")
-        //cy.get('.list').contains('Doing').trigger(findByTestId("list"));
-          cy.get("div.css-4xbk0o-singleValue").click()
-          cy.contains(listName).click()
+        cy.findByTestId("move-card-popover-select-list-destination")
         return this
     }
     clickmove(){
