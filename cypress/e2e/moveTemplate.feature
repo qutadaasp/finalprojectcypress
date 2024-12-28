@@ -1,3 +1,4 @@
+@regressiontest
 Feature: Move Template
 
     Scenario: User can move template to another list
