@@ -56,7 +56,7 @@ When("Choose list",()=>{
       movetemp.chooselist(listname)
 })
 
-When("click move",()=>{
+When("Click Move",()=>{
     movetemp.clickmove()
 })
 

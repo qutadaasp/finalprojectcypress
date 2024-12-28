@@ -9,8 +9,9 @@ class MoveTemp {
         return this
     }
 
-    chooselist(listName){
-        cy.findByTestId("move-card-popover-select-list-destination")
+    chooselist(listname){
+        cy.findByTestId("move-card-popover-select-list-destination").click()
+        cy.get('.css-1tbvomj').eq(1).type(listname+"{enter}");
         return this
     }
     clickmove(){

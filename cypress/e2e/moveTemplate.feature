@@ -9,5 +9,7 @@ Feature: Move Template
     And Clicks on move button
 
     And Choose list
+
+    And Click Move
     
     Then The Template move to list
